@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="#">
+        <title>Factoring Trainer</title>
+        <link href="factoring_trainer.css" rel="stylesheet">
+        <script src="jquery.min.js"></script>
+        <script src="easeljs.min.js"></script>
+        <script src="preloadjs.min.js"></script>
+        <script src="tweenjs.min.js"></script>
+        <script src="soundjs.min.js"></script>
+        <script src="utilities.js"></script>
+        <script src="math_utilities.js"></script>
+        <script src="exponential_expression.js"></script>
+        <script src="factoring_trainer.js"></script>
+        <script src="game.js"></script>
+    </head>
+    <body>
+        <canvas id="canvas"></canvas>
+        <script>
+        $(document).ready(function() {
+            var game = new Game("canvas");
+        });
+        </script>
+    </body>
+</html>
